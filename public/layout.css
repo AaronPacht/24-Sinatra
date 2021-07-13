@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: grey;
+}
+
+header{
+    background-color: blue;
+    width: 100%;
+}
+
+header>a{
+    font-size: 200%;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+header>a:hover{
+    color: darkgreen;
+}
+
+img{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+}
+
+.info{
+    display: flex;
+}
+
+p{
+    font-size: 300%;
+    margin: 20px;
+}
+
+ul>li{
+    font-size: 200%;
+}
